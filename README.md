@@ -1,6 +1,6 @@
-# "Bloated Displayed Attack" Mod for Monster Hunter: Rise
+# "Adjustable Damage Number Size" Mod for Monster Hunter: Rise
 
-Mod for Monster Hunter Rise that shows bloated attack value instead of raw value when inspecting a weapon like in older monster hunter games.
+Mod for Monster Hunter Rise that allows you to change the size of damage numbers to your liking, make them smaller or bigger. I made this mod because holy jesus the default damage numbers are huuuge.
 
 ![bloated_displayed_attack_2](https://user-images.githubusercontent.com/30152047/193549302-874af1a7-0532-4907-944d-5d1f3bf95ef3.png)
 
@@ -8,12 +8,10 @@ Mod for Monster Hunter Rise that shows bloated attack value instead of raw value
 * **[Nexus Mods](https://www.nexusmods.com/monsterhunterrise/mods/1755)**  
 
 # Requirements
-1. [REFramework](https://nexusmods.com/monsterhunterrise/mods/26) (v1.3.5 or above);
-2. [Optional] [Custom In-Game Mod Menu API](https://www.nexusmods.com/monsterhunterrise/mods/1292) (v1.7 or above).
+1. [REFramework](https://nexusmods.com/monsterhunterrise/mods/26) (v1.3.7 or above);
 
 # How to install:
 1. Install [REFramework](https://nexusmods.com/monsterhunterrise/mods/26);
-1. [Optional] Install [[Custom In-Game Mod Menu API](https://www.nexusmods.com/monsterhunterrise/mods/1292);
 3. Download the mod:
     * Official release can be downloaded from [Nexus Mods](https://www.nexusmods.com/monsterhunterrise/mods/1044);
     * Nightly builds are available in [this repo](https://github.com/GreenComfyTea/MHR-Better-Matchmaking) and can contain broken functionality, debugging info on screen, bugs and might require the latest [nightly build](https://github.com/praydog/REFramework-nightly/releases) of [REFramework](https://www.nexusmods.com/monsterhunterrise/mods/26). Use with caution!
