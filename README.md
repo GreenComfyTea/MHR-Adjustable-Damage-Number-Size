@@ -14,7 +14,7 @@ Mod for Monster Hunter Rise that allows you to change the size of damage numbers
 1. Install [REFramework](https://nexusmods.com/monsterhunterrise/mods/26);
 3. Download the mod:
     * Official release can be downloaded from [Nexus Mods](https://www.nexusmods.com/monsterhunterrise/mods/2155);
-    * Nightly builds are available in [this repo](https://github.com/GreenComfyTea/MHR-Better-Matchmaking) and can contain broken functionality, debugging info on screen, bugs and might require the latest [nightly build](https://github.com/praydog/REFramework-nightly/releases) of [REFramework](https://www.nexusmods.com/monsterhunterrise/mods/26). Use with caution!
+    * Nightly builds are available in [this repo](https://github.com/GreenComfyTea/MHR-Adjustable-Damage-Number-Size) and can contain broken functionality, debugging info on screen, bugs and might require the latest [nightly build](https://github.com/praydog/REFramework-nightly/releases) of [REFramework](https://www.nexusmods.com/monsterhunterrise/mods/26). Use with caution!
 4. Extract the mod from the archive and place it in MonsterHunterRise folder.
 
 # Credits
