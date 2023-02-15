@@ -144,8 +144,8 @@ function damage_numbers.on_num_disp_routine(num_disp, routine_type)
 		damage_number_modifiers = config.current_config.big_gray_damage_numbers;
 	end
 
-	local new_width = width * damage_number_modifiers.width_modifier;
-	local new_height = height * damage_number_modifiers.height_modifier;
+	local new_width = width * damage_number_modifiers.width_multiplier;
+	local new_height = height * damage_number_modifiers.height_multiplier;
 
 	local cached_num_disp = cached_nums_disps[num_disp];
 	if cached_num_disp ~= nil then
