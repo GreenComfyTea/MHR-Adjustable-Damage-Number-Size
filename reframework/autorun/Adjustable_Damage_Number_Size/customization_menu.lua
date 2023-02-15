@@ -73,12 +73,12 @@ function customization_menu.draw()
 		if imgui.tree_node("White") then
 			local damage_numbers = config.current_config.white_damage_numbers;
 	
-			changed, damage_numbers.width_modifier = imgui.drag_float("Width Modifier",
-				damage_numbers.width_modifier, 0.01, 0.1, 10, "%.2f");
+			changed, damage_numbers.width_multiplier = imgui.drag_float("Width Multiplier",
+				damage_numbers.width_multiplier, 0.01, 0.1, 10, "%.2f");
 			config_changed = config_changed or changed;
 		
-			changed, damage_numbers.height_modifier = imgui.drag_float("Height Modifier",
-				damage_numbers.height_modifier, 0.01, 0.1, 10, "%.2f");
+			changed, damage_numbers.height_multiplier = imgui.drag_float("Height Multiplier",
+				damage_numbers.height_multiplier, 0.01, 0.1, 10, "%.2f");
 			config_changed = config_changed or changed;
 	
 			imgui.tree_pop();
@@ -87,12 +87,12 @@ function customization_menu.draw()
 		if imgui.tree_node("Orange") then
 			local damage_numbers = config.current_config.orange_damage_numbers;
 	
-			changed, damage_numbers.width_modifier = imgui.drag_float("Width Modifier",
-				damage_numbers.width_modifier, 0.01, 0.1, 10, "%.2f");
+			changed, damage_numbers.width_multiplier = imgui.drag_float("Width Multiplier",
+				damage_numbers.width_multiplier, 0.01, 0.1, 10, "%.2f");
 			config_changed = config_changed or changed;
 		
-			changed, damage_numbers.height_modifier = imgui.drag_float("Height Modifier",
-				damage_numbers.height_modifier, 0.01, 0.1, 10, "%.2f");
+			changed, damage_numbers.height_multiplier = imgui.drag_float("Height Multiplier",
+				damage_numbers.height_multiplier, 0.01, 0.1, 10, "%.2f");
 			config_changed = config_changed or changed;
 	
 			imgui.tree_pop();
@@ -101,12 +101,12 @@ function customization_menu.draw()
 		if imgui.tree_node("Big Orange") then
 			local damage_numbers = config.current_config.big_orange_damage_numbers;
 	
-			changed, damage_numbers.width_modifier = imgui.drag_float("Width Modifier",
-			damage_numbers.width_modifier, 0.01, 0.1, 10, "%.2f");
+			changed, damage_numbers.width_multiplier = imgui.drag_float("Width Multiplier",
+			damage_numbers.width_multiplier, 0.01, 0.1, 10, "%.2f");
 			config_changed = config_changed or changed;
 		
-			changed, damage_numbers.height_modifier = imgui.drag_float("Height Modifier",
-			damage_numbers.height_modifier, 0.01, 0.1, 10, "%.2f");
+			changed, damage_numbers.height_multiplier = imgui.drag_float("Height Multiplier",
+			damage_numbers.height_multiplier, 0.01, 0.1, 10, "%.2f");
 			config_changed = config_changed or changed;
 	
 			imgui.tree_pop();
@@ -115,12 +115,12 @@ function customization_menu.draw()
 		if imgui.tree_node("Gray") then
 			local damage_numbers = config.current_config.gray_damage_numbers;
 	
-			changed, damage_numbers.width_modifier = imgui.drag_float("Width Modifier",
-			damage_numbers.width_modifier, 0.01, 0.1, 10, "%.2f");
+			changed, damage_numbers.width_multiplier = imgui.drag_float("Width Multiplier",
+			damage_numbers.width_multiplier, 0.01, 0.1, 10, "%.2f");
 			config_changed = config_changed or changed;
 		
-			changed, damage_numbers.height_modifier = imgui.drag_float("Height Modifier",
-			damage_numbers.height_modifier, 0.01, 0.1, 10, "%.2f");
+			changed, damage_numbers.height_multiplier = imgui.drag_float("Height Multiplier",
+			damage_numbers.height_multiplier, 0.01, 0.1, 10, "%.2f");
 			config_changed = config_changed or changed;
 	
 			imgui.tree_pop();
@@ -129,12 +129,12 @@ function customization_menu.draw()
 		if imgui.tree_node("Red") then
 			local damage_numbers = config.current_config.red_damage_numbers;
 	
-			changed, damage_numbers.width_modifier = imgui.drag_float("Width Modifier",
-			damage_numbers.width_modifier, 0.01, 0.1, 10, "%.2f");
+			changed, damage_numbers.width_multiplier = imgui.drag_float("Width Multiplier",
+			damage_numbers.width_multiplier, 0.01, 0.1, 10, "%.2f");
 			config_changed = config_changed or changed;
 		
-			changed, damage_numbers.height_modifier = imgui.drag_float("Height Modifier",
-			damage_numbers.height_modifier, 0.01, 0.1, 10, "%.2f");
+			changed, damage_numbers.height_multiplier = imgui.drag_float("Height Multiplier",
+			damage_numbers.height_multiplier, 0.01, 0.1, 10, "%.2f");
 			config_changed = config_changed or changed;
 	
 			imgui.tree_pop();
@@ -143,12 +143,12 @@ function customization_menu.draw()
 		if imgui.tree_node("Big Gray") then
 			local damage_numbers = config.current_config.big_gray_damage_numbers;
 	
-			changed, damage_numbers.width_modifier = imgui.drag_float("Width Modifier",
-			damage_numbers.width_modifier, 0.01, 0.1, 10, "%.2f");
+			changed, damage_numbers.width_multiplier = imgui.drag_float("Width Multiplier",
+			damage_numbers.width_multiplier, 0.01, 0.1, 10, "%.2f");
 			config_changed = config_changed or changed;
 		
-			changed, damage_numbers.height_modifier = imgui.drag_float("Height Modifier",
-			damage_numbers.height_modifier, 0.01, 0.1, 10, "%.2f");
+			changed, damage_numbers.height_multiplier = imgui.drag_float("Height Multiplier",
+			damage_numbers.height_multiplier, 0.01, 0.1, 10, "%.2f");
 			config_changed = config_changed or changed;
 	
 			imgui.tree_pop();

@@ -41,33 +41,33 @@ function config.init()
 		enabled = true,
 
 		white_damage_numbers = {
-			width_modifier = 0.6,
-			height_modifier = 0.6
+			width_multiplier = 0.6,
+			height_multiplier = 0.6
 		},
 
 		orange_damage_numbers = {
-			width_modifier = 0.6,
-			height_modifier = 0.6
+			width_multiplier = 0.6,
+			height_multiplier = 0.6
 		},
 
 		big_orange_damage_numbers = {
-			width_modifier = 0.6,
-			height_modifier = 0.6
+			width_multiplier = 0.6,
+			height_multiplier = 0.6
 		},
 
 		gray_damage_numbers = {
-			width_modifier = 0.6,
-			height_modifier = 0.6
+			width_multiplier = 0.6,
+			height_multiplier = 0.6
 		},
 
 		red_damage_numbers = {
-			width_modifier = 0.6,
-			height_modifier = 0.6
+			width_multiplier = 0.6,
+			height_multiplier = 0.6
 		},
 		
 		big_gray_damage_numbers = {
-			width_modifier = 0.6,
-			height_modifier = 0.6
+			width_multiplier = 0.6,
+			height_multiplier = 0.6
 		},
 	};
 end
