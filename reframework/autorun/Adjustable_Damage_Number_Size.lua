@@ -27,23 +27,35 @@ local draw = draw;
 local Vector2f = Vector2f;
 local reframework = reframework;
 
-local table_helpers = require("Adjustable_Damage_Number_Size.table_helpers");
+local utils = require("Adjustable_Damage_Number_Size.utils");
 local config = require("Adjustable_Damage_Number_Size.config");
 
 local customization_menu = require("Adjustable_Damage_Number_Size.customization_menu");
+local native_customization_menu = require("Adjustable_Damage_Number_Size.native_customization_menu");
 
 local damage_numbers = require("Adjustable_Damage_Number_Size.damage_numbers");
 
-table_helpers.init_module();
+utils.init_module();
 config.init_module();
 customization_menu.init_module();
+native_customization_menu.init_module();
 damage_numbers.init_module();
 
 log.info("[Adjustable Damage Number Size] Loaded.");
 
 re.on_draw_ui(function()
+	local changed = false;
+	local cached_config = config.current_config;
+
 	if imgui.button("Adjustable Damage Number Size v" .. config.current_config.version) then
 		customization_menu.is_opened = not customization_menu.is_opened;
+	end
+
+	imgui.same_line();
+
+	changed, cached_config.enabled = imgui.checkbox("Enabled##ADJUSTABLE_DAMAGE_NUMBER_SIZE", cached_config.enabled);
+	if changed then
+		config.save();
 	end
 end);
 

@@ -1,6 +1,6 @@
-local damage_numbers = {};
+local this = {};
 
-local table_helpers;
+local utils;
 local config;
 local customization_menu;
 
@@ -79,7 +79,7 @@ local function is_same(first, second)
 	return math.abs(first - second) < EPSILON;
 end
 
-function damage_numbers.on_num_disp_routine(num_disp, routine_type)
+function this.on_num_disp_routine(num_disp, routine_type)
 	if not config.current_config.enabled then
 		return;
 	end
@@ -179,7 +179,7 @@ function damage_numbers.on_num_disp_routine(num_disp, routine_type)
 	};
 end
 
-function damage_numbers.on_num_disp_state_finish_event(num_disp)
+function this.on_num_disp_state_finish_event(num_disp)
 	local cached_num_disp = cached_nums_disps[num_disp];
 
 	if cached_num_disp == nil then
@@ -193,40 +193,40 @@ function damage_numbers.on_num_disp_state_finish_event(num_disp)
 	cached_num_disp.event_finished = true;
 end
 
-function damage_numbers.init_module()
+function this.init_module()
 	config = require("Adjustable_Damage_Number_Size.config");
-	table_helpers = require("Adjustable_Damage_Number_Size.table_helpers");
+	utils = require("Adjustable_Damage_Number_Size.utils");
 	customization_menu = require("Adjustable_Damage_Number_Size.customization_menu");
 
 	sdk.hook(num_disp_set_routine_method,
 	function(args)
 		local num_disp = sdk.to_managed_object(args[2]);
-		damage_numbers.on_num_disp_routine(num_disp, routine_types.SET);
+		this.on_num_disp_routine(num_disp, routine_types.SET);
 	end, function(retval) return retval; end);
 
 	sdk.hook(num_disp_routine_in_method,
 	function(args)
 		local num_disp = sdk.to_managed_object(args[2]);
-		damage_numbers.on_num_disp_routine(num_disp, routine_types.IN);
+		this.on_num_disp_routine(num_disp, routine_types.IN);
 	end, function(retval) return retval; end);
 
 	sdk.hook(num_disp_routine_wait_method,
 	function(args)
 		local num_disp = sdk.to_managed_object(args[2]);
-		damage_numbers.on_num_disp_routine(num_disp, routine_types.WAIT);
+		this.on_num_disp_routine(num_disp, routine_types.WAIT);
 	end, function(retval) return retval; end);
 
 	sdk.hook(num_disp_routine_out_method,
 	function(args)
 		local num_disp = sdk.to_managed_object(args[2]);
-		damage_numbers.on_num_disp_routine(num_disp, routine_types.OUT);
+		this.on_num_disp_routine(num_disp, routine_types.OUT);
 	end, function(retval) return retval; end);
 
 	sdk.hook(num_disp_state_finish_event_method,
 	function(args)
 		local num_disp = sdk.to_managed_object(args[2]);
-		damage_numbers.on_num_disp_state_finish_event(num_disp);
+		this.on_num_disp_state_finish_event(num_disp);
 	end, function(retval) return retval; end);
 end
 
-return damage_numbers;
+return this;
