@@ -86,8 +86,6 @@ function this.draw()
 	mod_menu.Label("Version: <COL RED>" .. config.current_config.version .. "</COL>", "",
 		"Donate: <COL RED>https://streamelements.com/greencomfytea/tip</COL>\nBuy me a tea: <COL RED>https://ko-fi.com/greencomfytea</COL>\nSometimes I stream: <COL RED>twitch.tv/greencomfytea</COL>");
 
-	--imgui.text("Status: " .. tostring(customization_menu.status));
-
 	if true then
 		mod_menu.Header("Global Settings");
 
@@ -103,7 +101,7 @@ function this.draw()
 	end
 
 	if true then
-		mod_menu.Header("<COL WHITE_GCT>White</COL> Damage Numbers");
+		mod_menu.Header("<COL WGCT>White</COL> Damage Numbers");
 
 		changed, config.current_config.white_damage_numbers.width_multiplier = mod_menu.FloatSlider("Width Multiplier",
 			config.current_config.white_damage_numbers.width_multiplier, 0, 10, "Adjust Width Multiplier for White Damage Numbers.\n");
@@ -115,62 +113,62 @@ function this.draw()
 	end
 
 	if true then
-		mod_menu.Header("<COL ORANGE_GCT>Orange</COL> Damage Numbers");
+		mod_menu.Header("<COL OGCT>Orange</COL> Damage Numbers");
 
 		changed, config.current_config.orange_damage_numbers.width_multiplier = mod_menu.FloatSlider("Width Multiplier",
-			config.current_config.orange_damage_numbers.width_multiplier, 0, 10, "Adjust Width Multiplier for <COL ORANGE_GCT>Orange</COL> Damage Numbers.\n");
+			config.current_config.orange_damage_numbers.width_multiplier, 0, 10, "Adjust Width Multiplier for <COL OGCT>Orange</COL> Damage Numbers.\n");
 		config_changed = config_changed or changed;
 
 		changed, config.current_config.orange_damage_numbers.height_multiplier = mod_menu.FloatSlider("Height Multiplier",
-			config.current_config.orange_damage_numbers.height_multiplier, 0, 10, "Adjust Height Multiplier for <COL ORANGE_GCT>Orange</COL> Damage Numbers.\n");
+			config.current_config.orange_damage_numbers.height_multiplier, 0, 10, "Adjust Height Multiplier for <COL OGCT>Orange</COL> Damage Numbers.\n");
 		config_changed = config_changed or changed;
 	end
 
 	if true then
-		mod_menu.Header("<COL ORANGE_GCT>Big Orange</COL> Damage Numbers");
+		mod_menu.Header("<COL OGCT>Big Orange</COL> Damage Numbers");
 
 		changed, config.current_config.big_orange_damage_numbers.width_multiplier = mod_menu.FloatSlider("Width Multiplier",
-			config.current_config.big_orange_damage_numbers.width_multiplier, 0, 10, "Adjust Width Multiplier for <COL ORANGE_GCT>Big Orange</COL> Damage Numbers.\n");
+			config.current_config.big_orange_damage_numbers.width_multiplier, 0, 10, "Adjust Width Multiplier for <COL OGCT>Big Orange</COL> Damage Numbers.\n");
 		config_changed = config_changed or changed;
 
 		changed, config.current_config.big_orange_damage_numbers.height_multiplier = mod_menu.FloatSlider("Height Multiplier",
-			config.current_config.big_orange_damage_numbers.height_multiplier, 0, 10, "Adjust Height Multiplier for <COL ORANGE_GCT>Big Orange</COL> Damage Numbers.\n");
+			config.current_config.big_orange_damage_numbers.height_multiplier, 0, 10, "Adjust Height Multiplier for <COL OGCT>Big Orange</COL> Damage Numbers.\n");
 		config_changed = config_changed or changed;
 	end
 
 	if true then
-		mod_menu.Header("<COL GRAY_GCT>Gray</COL> Damage Numbers");
+		mod_menu.Header("<COL GGCT>Gray</COL> Damage Numbers");
 
 		changed, config.current_config.gray_damage_numbers.width_multiplier = mod_menu.FloatSlider("Width Multiplier",
-			config.current_config.gray_damage_numbers.width_multiplier, 0, 10, "Adjust Width Multiplier for <COL GRAY_GCT>Gray</COL> Damage Numbers.\n");
+			config.current_config.gray_damage_numbers.width_multiplier, 0, 10, "Adjust Width Multiplier for <COL GGCT>Gray</COL> Damage Numbers.\n");
 		config_changed = config_changed or changed;
 
 		changed, config.current_config.gray_damage_numbers.height_multiplier = mod_menu.FloatSlider("Height Multiplier",
-			config.current_config.gray_damage_numbers.height_multiplier, 0, 10, "Adjust Height Multiplier for <COL GRAY_GCT>Gray</COL> Damage Numbers.\n");
+			config.current_config.gray_damage_numbers.height_multiplier, 0, 10, "Adjust Height Multiplier for <COL GGCT>Gray</COL> Damage Numbers.\n");
 		config_changed = config_changed or changed;
 	end
 
 	if true then
-		mod_menu.Header("<COL RED_GCT>Red</COL> Damage Numbers");
+		mod_menu.Header("<COL RGCT>Red</COL> Damage Numbers");
 
 		changed, config.current_config.red_damage_numbers.width_multiplier = mod_menu.FloatSlider("Width Multiplier",
-			config.current_config.red_damage_numbers.width_multiplier, 0, 10, "Adjust Width Multiplier for <COL RED_GCT>Red</COL> Damage Numbers.\n");
+			config.current_config.red_damage_numbers.width_multiplier, 0, 10, "Adjust Width Multiplier for <COL RGCT>Red</COL> Damage Numbers.\n");
 		config_changed = config_changed or changed;
 
 		changed, config.current_config.red_damage_numbers.height_multiplier = mod_menu.FloatSlider("Height Multiplier",
-			config.current_config.red_damage_numbers.height_multiplier, 0, 10, "Adjust Height Multiplier for <COL RED_GCT>Red</COL> Damage Numbers.\n");
+			config.current_config.red_damage_numbers.height_multiplier, 0, 10, "Adjust Height Multiplier for <COL RGCT>Red</COL> Damage Numbers.\n");
 		config_changed = config_changed or changed;
 	end
 
 	if true then
-		mod_menu.Header("<COL GRAY_GCT>Big Gray</COL> Damage Numbers");
+		mod_menu.Header("<COL GGCT>Big Gray</COL> Damage Numbers");
 
 		changed, config.current_config.big_gray_damage_numbers.width_multiplier = mod_menu.FloatSlider("Width Multiplier",
-			config.current_config.big_gray_damage_numbers.width_multiplier, 0, 10, "Adjust Width Multiplier for <COL GRAY_GCT>Big Gray</COL> Damage Numbers.\n");
+			config.current_config.big_gray_damage_numbers.width_multiplier, 0, 10, "Adjust Width Multiplier for <COL GGCT>Big Gray</COL> Damage Numbers.\n");
 		config_changed = config_changed or changed;
 
 		changed, config.current_config.big_gray_damage_numbers.height_multiplier = mod_menu.FloatSlider("Height Multiplier",
-			config.current_config.big_gray_damage_numbers.height_multiplier, 0, 10, "Adjust Height Multiplier for <COL GRAY_GCT>Big Gray</COL> Damage Numbers.\n");
+			config.current_config.big_gray_damage_numbers.height_multiplier, 0, 10, "Adjust Height Multiplier for <COL GGCT>Big Gray</COL> Damage Numbers.\n");
 		config_changed = config_changed or changed;
 	end
 
@@ -193,14 +191,14 @@ function this.init_module()
 		return;
 	end
 
-	mod_menu.AddTextColor("WHITE_GCT", "FFFFFF");
-	mod_menu.AddTextColor("ORANGE_GCT", "ECB11B");
-	mod_menu.AddTextColor("GRAY_GCT", "808080");
-	mod_menu.AddTextColor("RED_GCT", "F40D00");
+	mod_menu.AddTextColor("WGCT", "FFFFFF"); -- white
+	mod_menu.AddTextColor("OGCT", "ECB11B"); -- orange
+	mod_menu.AddTextColor("GGCT", "808080"); -- gray
+	mod_menu.AddTextColor("RGCT", "F40D00"); -- red
 
 	native_UI = mod_menu.OnMenu(
 		"Adjustable Damage Number Size",
-		"Allows you to change the size of damage numbers to your liking.",
+		"Change the size of damage numbers to your liking.",
 		this.draw
 	);
 
