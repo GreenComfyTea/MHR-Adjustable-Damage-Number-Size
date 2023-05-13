@@ -50,13 +50,6 @@ re.on_draw_ui(function()
 	if imgui.button("Adjustable Damage Number Size v" .. config.current_config.version) then
 		customization_menu.is_opened = not customization_menu.is_opened;
 	end
-
-	imgui.same_line();
-
-	changed, cached_config.enabled = imgui.checkbox("Enabled##ADJUSTABLE_DAMAGE_NUMBER_SIZE", cached_config.enabled);
-	if changed then
-		config.save();
-	end
 end);
 
 re.on_frame(function()
