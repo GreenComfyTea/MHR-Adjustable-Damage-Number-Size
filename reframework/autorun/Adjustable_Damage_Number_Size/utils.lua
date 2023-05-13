@@ -334,7 +334,7 @@ end
 function this.unicode.reverse(s)
 	-- reverse the individual greater-than-single-byte characters
 	s = s:gsub(pattern, function (c)
-		return #c > 1 and c:reverse()
+		return #c > 1 and c:reverse();
 	end);
 
 	return s:reverse();
