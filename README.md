@@ -4,6 +4,9 @@ Mod for Monster Hunter Rise that allows you to change the size of damage numbers
 
 ![dmg_numbers_2](https://user-images.githubusercontent.com/30152047/218811974-50913460-9de9-4cac-9762-8ef3d455172f.png)
 
+![dmg_numbers_4](https://github.com/GreenComfyTea/MHR-Adjustable-Damage-Number-Size/assets/30152047/6a61bc36-e2eb-419f-856b-e1c70879064e)
+
+
 # Links
 * **[Nexus Mods](https://www.nexusmods.com/monsterhunterrise/mods/2155)**
 
