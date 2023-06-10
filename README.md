@@ -30,10 +30,10 @@
 	<a href="https://github.com/greencomfytea/mhr-adjustable-damage-number-size/releases">
 		<img alt="Release Date" src="https://img.shields.io/github/release-date/greencomfytea/mhr-adjustable-damage-number-size" />
 	</a>
-	<a>
+	<a href="">
 		<img alt="Platform" src="https://img.shields.io/badge/platform-win%20%7C%20linux%20%7C%20steam%20deck-lightgrey" />
 	</a>
-	<a>
+	<a href="">
 		<img alt="Maintenance" src="https://img.shields.io/maintenance/yes/2023" />
 	</a>
 </p>
@@ -41,27 +41,27 @@
 	<a href="https://www.nexusmods.com/monsterhunterrise/mods/26">
 		<img alt="REFramework Dependency" src="https://img.shields.io/badge/dependency-REFramework%20v1.503%2B-green" />
 	</a>
-   <a href="[https://www.nexusmods.com/monsterhunterrise/mods/26](https://www.nexusmods.com/monsterhunterrise/mods/1292)">
+   	<a href="[https://www.nexusmods.com/monsterhunterrise/mods/26](https://www.nexusmods.com/monsterhunterrise/mods/1292)">
 		<img alt="In-Game Menu Dependency" src="https://img.shields.io/badge/dependency-Custom%20In--Game%20Mod%20Menu%20API%20v1.71%2B-yellow" />
 	</a>
 </p>
 <p align="center">
-	<a>
+	<a href="">
 		<img alt="Repo Size" src="https://img.shields.io/github/repo-size/greencomfytea/mhr-adjustable-damage-number-size" />
 	</a>
-	<a>
+	<a href="">
 		<img alt="Goto Counter" src="https://img.shields.io/github/search/greencomfytea/mhr-adjustable-damage-number-size/goto" />
 	</a>
 	<a href="https://github.com/sponsors/greencomfytea">
 		<img alt="Sponsors" src="https://img.shields.io/github/sponsors/greencomfytea" />
 	</a>
-	<a>
+	<a href="">
 		<img alt="Watchers" src="https://img.shields.io/github/watchers/greencomfytea/mhr-adjustable-damage-number-size" />
 	</a>
 	<a href="https://github.com/greencomfytea/mhr-adjustable-damage-number-size/forks">
 		<img alt="Forks" src="https://img.shields.io/github/forks/greencomfytea/mhr-adjustable-damage-number-size" />
 	</a>
-	<a>
+	<a href="">
 		<img alt="Stars" src="https://img.shields.io/github/stars/greencomfytea/mhr-adjustable-damage-number-size" />
 	</a>
 </p>
