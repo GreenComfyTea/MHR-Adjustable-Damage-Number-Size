@@ -1,7 +1,3 @@
-# 
-
-
-
 <p align="center">
 	<h2 align="center"><b>"Adjustable Damage Number Size" Mod for Monster Hunter: Rise</b></h2>
 	<p align="center">Mod that allows you to change the size of damage numbers to your liking, make them smaller or bigger. I made this mod because holy jesus the default damage numbers are huuuge.</p>
