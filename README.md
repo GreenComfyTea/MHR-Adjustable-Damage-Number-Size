@@ -41,7 +41,7 @@
 	<a href="https://www.nexusmods.com/monsterhunterrise/mods/26">
 		<img alt="REFramework Dependency" src="https://img.shields.io/badge/dependency-REFramework%20v1.503%2B-green" />
 	</a>
-   	<a href="[https://www.nexusmods.com/monsterhunterrise/mods/26](https://www.nexusmods.com/monsterhunterrise/mods/1292)">
+   	<a href="https://www.nexusmods.com/monsterhunterrise/mods/1292">
 		<img alt="In-Game Menu Dependency" src="https://img.shields.io/badge/dependency-Custom%20In--Game%20Mod%20Menu%20API%20v1.71%2B-yellow" />
 	</a>
 </p>
@@ -116,6 +116,7 @@
 
 # Requirements
 1. [REFramework](https://nexusmods.com/monsterhunterrise/mods/26) (v1.503+);
+2. [Optional] [Custom In-Game Mod Menu API](https://www.nexusmods.com/monsterhunterrise/mods/1292) (v1.71+).
 
 # How to install:
 1. Install [REFramework](https://nexusmods.com/monsterhunterrise/mods/26);
