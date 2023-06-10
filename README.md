@@ -1,10 +1,10 @@
-# "Adjustable Damage Number Size" Mod for Monster Hunter: Rise
+# 
 
-Mod for Monster Hunter Rise that allows you to change the size of damage numbers to your liking, make them smaller or bigger. I made this mod because holy jesus the default damage numbers are huuuge.
+
 
 <p align="center">
-	<h2 align="center"><b>"No More Blinking Icons" Mod for Monster Hunter: Rise</b></h2>
-	<p align="center">Fixes blinking of Status Icons and Weapon Icons for the player, other players, buddies and followers. No more epilepsy.</p>
+	<h2 align="center"><b>"Adjustable Damage Number Size" Mod for Monster Hunter: Rise</b></h2>
+	<p align="center">Mod that allows you to change the size of damage numbers to your liking, make them smaller or bigger. I made this mod because holy jesus the default damage numbers are huuuge.</p>
 </p>
 
 <p align="center">
